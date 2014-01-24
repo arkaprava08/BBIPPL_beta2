@@ -60,6 +60,10 @@
     width: 100%;
 }
 
+.megamenu *{
+    z-index: 101;
+}
+
 .megamenu > ul > li > a{
     color: white;
     display: block;
