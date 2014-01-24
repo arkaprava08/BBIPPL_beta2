@@ -1,0 +1,126 @@
+.container{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em
+}
+
+/*megamenu*/
+.megamenu{
+    z-index: 100;
+    background-color: #293660;
+    position: relative;
+    width: 100%;
+}
+
+.megamenu > ul > li > a{
+    color: white;
+    display: block;
+    padding: 1em 0 .8em 0;
+    border-bottom: 6px solid #293660;
+    text-align: center;
+    font-size: small;
+}
+
+.megamenu li{
+    list-style: none;
+}
+
+.megamenu > ul > li:hover > a{
+    border-bottom-color: #757575;
+}
+.megamenu > ul > li:hover .dropdown_container{
+    display: block;
+}
+
+.dropdown_container{
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 800%;
+    background-color: #293660;
+    display: none;
+}
+.dropdown_container > ul > li > a{
+    color: white;
+    display: block;
+    padding: 1em 0 .8em 0;
+    border-bottom: 6px solid #293660;
+    font-size: small;
+    text-align: center;
+}
+
+.dropdown_container > ul > li:hover > a{
+    border-bottom-color: #757575;
+}
+
+.dropdown_container > ul > li:hover .dropdowncontent{
+    display: block;
+}
+
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    background-color: #ededed;
+    width: 800%;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    border-bottom: 1px solid #d8d6d6;
+    height: 300px;
+}
+
+.dropdowncontent strong{
+    display: block;
+    padding-bottom: .4em;
+}
+.dropdowncontent a{
+    display: block;
+    color: #28375f;
+    font-size: small;
+    padding-bottom: .4em;
+}
+/*grid*/
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 0 0 0 0;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+
+.span_2_of_8 {
+    position: relative;
+    width: 25%; 
+}
+
+.span_1_of_8 {
+    position: relative;
+    width: 12.5%; 
+}
+
+.offset_1_of_8 {
+    margin-left: 12.5% !important;
+}
+
+.offset_2_of_8 {
+    margin-left: 25% !important;
+}
