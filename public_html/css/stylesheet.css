@@ -181,6 +181,15 @@ input[type='search']{
     border: none;
 }
 
+/*carousel*/
+.carousel{
+    padding-bottom: 2em !important;
+    border-bottom: 1px solid #d1cdcd;
+}
+
+.orbit-progress, .orbit-timer{
+    display: none !important;
+}
 
 /*our process*/
 .our-process{
