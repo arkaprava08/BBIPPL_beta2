@@ -52,6 +52,14 @@
     margin-left: 25% !important;
 }
 
+
+/*header*/
+input[type='search']{
+    background: url('../images/q.png') no-repeat 98%;
+    
+}
+
+
 /*megamenu*/
 .megamenu{
     z-index: 100;
@@ -173,10 +181,6 @@
     border: none;
 }
 
-/*carousel tweak*/
-.orbit-slide-number{
-    display: none !important;
-}
 
 /*our process*/
 .our-process{
