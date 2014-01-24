@@ -21,6 +21,10 @@
             </header>
         </div>
 
+
+        <div id="padsafe">
+
+        </div>
         <div class="megamenu" id="megamenu">
             <ul class="section group">
                 <li class="col span_1_of_8 offset_2_of_8">
@@ -201,8 +205,39 @@
             </ul>
         </div>
 
+        <div class="row">
+            <div class="small-12 medium-12 columns">
+                <h5>WELCOME TO BRICK AND BYTE</h5>
+                <ul class="breadcrumbs">
+                    <li class="current"><a href="#">HomePage</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <ul class="example-orbit" data-orbit>
+            <li>
+                <img src="images/samp1.jpg" alt="slide 1" />
+                <div class="orbit-caption">
+                    Caption One.
+                </div>
+            </li>
+            <li>
+                <img src="images/samp1.jpg" alt="slide 2" />
+                <div class="orbit-caption">
+                    Caption Two.
+                </div>
+            </li>
+            <li>
+                <img src="images/samp1.jpg" alt="slide 3" />
+                <div class="orbit-caption">
+                    Caption Three.
+                </div>
+            </li>
+        </ul>
+
         <div class="container">
-            
+
         </div>
 
 
@@ -272,12 +307,15 @@
 
             var stickyHeaderTop = $('#megamenu').offset().top;
 
+            var height = $('#megamenu').height();
 
             $(window).scroll(function() {
                 if ($(window).scrollTop() > stickyHeaderTop) {
                     $('#megamenu').css({position: 'fixed', top: '0px'});
+                    $('#padsafe').css({height: height + 'px'});
                 } else {
                     $('#megamenu').css({position: 'static', top: '0px'});
+                    $('#padsafe').css({height: '0'});
                 }
             });
 

@@ -155,3 +155,16 @@
     background-color: #3c6571;
 }
 
+
+/*breadcrumbs*/
+
+.breadcrumbs{
+    padding: 0px;
+    background-color: white;
+    border: none;
+}
+
+/*carousel tweak*/
+.orbit-slide-number{
+    display: none !important;
+}
