@@ -1,3 +1,18 @@
+/*headerpage*/
+$(function() {
+    $("#headerpage").load("headerpage.html");
+});
+
+/*megamenu*/ 
+$(function() {
+    $("#megamenu").load("megamenu.html");
+});
+
+/*footerpage*/
+$(function() {
+    $("#footerpage").load("footerpage.html");
+});
+
 /*carousel tweak*/
 $(document).foundation({
     orbit: {
@@ -20,7 +35,6 @@ $(function() {
 
 /*stickynavigation code*/
 var stickyHeaderTop = $('#megamenu').offset().top;
-
 var height = $('#megamenu').height();
 
 $(window).scroll(function() {
