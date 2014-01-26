@@ -6,8 +6,9 @@
     padding-top: 1em;
 }
 
-.container p, .container a{
+.container p, .container a, .container ul{
     color: #667f84;
+    font-size: small;
 }
 
 
@@ -61,7 +62,7 @@
 /*header*/
 input[type='search']{
     background: url('../images/q.png') no-repeat 98%;
-    
+
 }
 
 
@@ -71,6 +72,7 @@ input[type='search']{
     background-color: #293660;
     position: relative;
     width: 100%;
+    margin-bottom: .6em;
 }
 
 .megamenu *{
@@ -237,4 +239,45 @@ input[type='search']{
 /*right column*/
 .right-column{
     padding-left: 2em;
+}
+
+/*title*/
+
+.title{
+    display: block;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    background-color: #293660;
+}
+
+.title label{
+    color: white;
+}
+
+/*accordion*/
+
+.accordion dd a{
+    padding-top: .6em;
+    padding-bottom: .6em;
+    font-size: small;
+    background-color: #f1f1f1 ;
+    border: 1px solid #d9d2d2 !important;
+    margin-bottom: .2em;
+    color: #58737d;
+}
+.accordion dd a:hover{
+    background-color: #f1f1f1 ;
+}
+
+.accordion > dd > div{
+    border: 1px solid #d9d2d2 !important;
+    border-top: 0;
+    margin-bottom: .2em;
+}
+
+.accordion-active{
+    background-color: #293660 !important;
+    color: white !important;
+    margin-bottom: 0 !important;
+    border-bottom: 0 !important;
 }

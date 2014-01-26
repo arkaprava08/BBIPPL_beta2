@@ -3,7 +3,7 @@ $(function() {
     $("#headerpage").load("headerpage.html");
 });
 
-/*megamenu*/ 
+/*megamenu*/
 $(function() {
     $("#megamenu").load("megamenu.html");
 });
@@ -46,3 +46,19 @@ $(window).scroll(function() {
         $('#padsafe').css({height: '0'});
     }
 });
+
+
+/*accordion tweak*/
+$('.accordion > dd > a').click(function(event)
+{
+    $('.accordion  .accordion-active').removeClass('accordion-active');
+});
+
+function accordion_tweak() {
+    
+    
+    if ($('.accordion .active').parent().children()[0])
+    {
+        $('.accordion .active').parent().children().first().addClass('accordion-active');
+    }
+}
