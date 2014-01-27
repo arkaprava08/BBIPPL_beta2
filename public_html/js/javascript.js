@@ -56,6 +56,7 @@ function load()
             $('#padsafe').css({height: '0'});
         }
     });
+
 }
 
 
@@ -76,14 +77,15 @@ function accordion_tweak() {
 
 
 /*improvement*/
- $(window).scroll(function(event)
- {
- $('.dropdowncontent').css({display: 'none'});
- 
- setTimeout(refresh, 500);
- });
- 
- function refresh() {
- $('.dropdowncontent').css({display: ''});
- }
+$(window).scroll(function(event)
+{
+    $('.dropdown_container').css({display: 'none'});
+
+    setTimeout(refresh, 500);
+});
+
+function refresh() {
+    $('.dropdown_container').css({display: ''});
+}
+
 

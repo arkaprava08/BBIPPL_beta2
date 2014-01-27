@@ -2892,7 +2892,7 @@ ul.pagination {
     display: none;
     padding: 0.9375rem; }
     .accordion .content.active {
-      display: block;
+      //display: block;
       background: white; }
 
 p.lead {
