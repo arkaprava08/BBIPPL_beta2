@@ -14,7 +14,7 @@
 }
 
 .container p, .container a, .container ul, .container div{
-    color: #667f84;
+    color: #242424;//#667f84;
     font-size: small;
 }
 
@@ -80,7 +80,7 @@ input[type='search']{
 /*megamenu*/
 .megamenu{
     z-index: 100;
-    background-color: #32364d;
+    background-color: #215c8e;//#32364d;
     position: relative;
     width: 100%;
     //margin-bottom: .6em;
@@ -94,7 +94,7 @@ input[type='search']{
     color: white;
     display: block;
     padding: 1.4em 0 .8em 0;
-    border-bottom: 6px solid #32364d;
+    border-bottom: 6px solid #215c8e;//#32364d;
     text-align: center;
     font-size: small;
 }
@@ -113,14 +113,14 @@ input[type='search']{
 .dropdown_container{
     position: absolute;
     width: 800%;
-    background-color: #3c415b;
+    background-color: #5085b2;//#3c415b;
     display: none;
 }
 .dropdown_container > ul > li > a{
     color: white;
     display: block;
     padding: 1.4em 0 .8em 0;
-    border-bottom: 6px solid #3c415b;
+    border-bottom: 6px solid #5085b2;//#3c415b;
     font-size: small;
     text-align: center;  
 }
@@ -164,7 +164,7 @@ input[type='search']{
 /*footer*/
 .footer{
     display: block;
-    background-color: #32364d;
+    background-color: #215c8e;//#32364d;
     padding-top: 2em;
     padding-bottom: 4em;
     margin-top: 6em;
@@ -191,7 +191,7 @@ input[type='search']{
 
 .mid-foot > div > div{
     height: 2px;
-    background-color: #3c6571;
+    background-color: white;
 }
 
 
@@ -222,7 +222,7 @@ input[type='search']{
 .head h5{
     font-size: 1.6em;
     font-weight: 500;
-    color: #5e7983;
+    color:  #215c8e;//#5e7983;
 }
 
 .content{
@@ -334,4 +334,36 @@ input[type='search']{
     margin-bottom: 0;
     margin-bottom: .2em;
     font-size: small;
+}
+
+/*tweaking new megamenu in mobile*/
+.dropdown .title{
+    padding: 0;
+}
+.dropdown .title h5{
+    font-size: medium;
+    font-weight: 100;
+    color: #5e7983;
+    margin: 0;
+}
+
+.title-area, .toggle-topbar{
+    background-color: #215c8e !important;
+}
+
+nav{
+    background-color: #5085b2 !important;
+}
+.top-bar-section ul li > a{
+    background-color: #5085b2 !important;
+} 
+.top-bar-section ul li:hover > a{
+    background-color: #6796bc !important;
+}
+.top-bar.expanded .toggle-topbar a span ,.top-bar .toggle-topbar.menu-icon a span {
+    -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white !important;
+    box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white !important;
+}
+.top-bar .toggle-topbar.menu-icon a {
+    color: white !important;
 }
