@@ -329,7 +329,8 @@ input[type='search']{
 /*index page*/
 
 .heading{
-    margin-bottom: .2em;
+    margin-top: .2em;
+    margin-bottom: .3em;
     font-weight: bold;
     font-size: medium;
 }
@@ -383,4 +384,23 @@ nav{
 
 .contact-us-below p{
     margin: 0;
+}
+
+/*careers*/
+.career-jobs > div{
+    border: 1px solid #e5e5e5;
+    padding-bottom: .2em;
+    margin-bottom: .3em
+}
+
+.career-jobs button{
+    padding-top: .3em !important;
+    padding-bottom: .3em !important;
+}
+
+#client_testimonials .orbit-prev, #client_testimonials .orbit-next{
+    top: 15em;
+}
+#employee_stories .orbit-prev, #employee_stories .orbit-next{
+    top: 15em;
 }
