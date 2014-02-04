@@ -69,6 +69,10 @@
     margin-left: 37.5% !important;
 }
 
+.offset_4_of_8 {
+    margin-left: 50% !important;
+}
+
 
 /*header*/
 input[type='search']{
@@ -80,7 +84,7 @@ input[type='search']{
 /*megamenu*/
 .megamenu{
     z-index: 100;
-    background-color: #215c8e;//#32364d;
+    background-color: #0d2334;//#32364d;
     position: relative;
     width: 100%;
     //margin-bottom: .6em;
@@ -94,7 +98,7 @@ input[type='search']{
     color: white;
     display: block;
     padding: 1.4em 0 .8em 0;
-    border-bottom: 6px solid #215c8e;//#32364d;
+    border-bottom: 6px solid #0d2334;//#32364d;
     text-align: center;
     font-size: small;
 }
@@ -113,14 +117,14 @@ input[type='search']{
 .dropdown_container{
     position: absolute;
     width: 800%;
-    background-color: #5085b2;//#3c415b;
+    background-color: #2b6088;//#3c415b;
     display: none;
 }
 .dropdown_container > ul > li > a{
     color: white;
     display: block;
     padding: 1.4em 0 .8em 0;
-    border-bottom: 6px solid #5085b2;//#3c415b;
+    border-bottom: 6px solid #2b6088;//#3c415b;
     font-size: small;
     text-align: center;  
 }
@@ -199,6 +203,7 @@ input[type='search']{
 
 .breadcrumbs{
     padding-top: .8em;
+    padding-left: 0;
     background-color: white;
     border: none;
     margin-bottom: .4em
@@ -324,7 +329,6 @@ input[type='search']{
 /*index page*/
 
 .heading{
-    padding-top: .8em;
     margin-bottom: .2em;
     font-weight: bold;
     font-size: medium;
@@ -366,4 +370,17 @@ nav{
 }
 .top-bar .toggle-topbar.menu-icon a {
     color: white !important;
+}
+
+/*contact us*/
+.contact-us-hero{
+    display: block;
+    width: 100%;
+}
+.contact-us-hero img{
+    width: 100%;
+}
+
+.contact-us-below p{
+    margin: 0;
 }
