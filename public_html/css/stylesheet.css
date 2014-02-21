@@ -238,8 +238,8 @@ input[type='search']{
     font-size: small;
     display: block;
     padding-bottom: 1.2em;
-    text-decoration: underline !important;
-    text-underline-position: below;
+/*    text-decoration: underline !important;
+    text-underline-position: below;*/
     overflow: hidden;
 }
 
