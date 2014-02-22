@@ -336,20 +336,16 @@ input[type='search']{
 
 .heading{
     margin-top: .2em;
-    margin-bottom: .3em;
+    margin-bottom: .4em;
     font-weight: bold;
     font-size: medium;
 }
 
 .subhead{
     margin-bottom: 0;
-    margin-bottom: .3em;
+    margin-bottom: .4em;
     font-size: small;
     font-weight: bold;
-}
-
-p{
-    margin-bottom: .3em;
 }
 
 /*tweaking new megamenu in mobile*/
