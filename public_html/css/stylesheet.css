@@ -211,8 +211,6 @@ input[type='search']{
 
 /*carousel*/
 .carousel{
-    padding-bottom: 2em !important;
-    border-bottom: 1px solid #d1cdcd;
 }
 
 .orbit-progress, .orbit-timer{
@@ -297,7 +295,7 @@ input[type='search']{
     background-color: #f1f1f1 ;
     border: 1px solid #d9d2d2;
     margin-bottom: .2em;
-    color: #58737d;
+    color: #0d2334;//#58737d;
 
     background-image: url(../images/down.png);
     background-position: right;
@@ -345,9 +343,13 @@ input[type='search']{
 
 .subhead{
     margin-bottom: 0;
-    margin-bottom: .2em;
+    margin-bottom: .3em;
     font-size: small;
     font-weight: bold;
+}
+
+p{
+    margin-bottom: .3em;
 }
 
 /*tweaking new megamenu in mobile*/
