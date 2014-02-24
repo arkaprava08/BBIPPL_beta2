@@ -81,33 +81,27 @@ $(function() {
             '</ul>' +
             '</li>' +
             '   <li class="has-dropdown"><a href="#">COMPANY</a>' +
-            
-            '<ul class="dropdown">'+
-            '<li class="has-dropdown"><a href="#">ABOUT US</a>'+
-            
-            '<ul class="dropdown">'+
+            '<ul class="dropdown">' +
+            '<li class="has-dropdown"><a href="#">ABOUT US</a>' +
+            '<ul class="dropdown">' +
             '<li><a href="#">>Vision</a></li>' +
             '<li><a href="#">>Core Team</a></li>' +
             '<li><a href="#">>Collborations</a></li>' +
             '<li><a href="#">>Clientd</a></li>' +
             '<li><a href="#">>Practices</a></li>' +
             '<li><a href="#">>Corporate Social Responsibility</a></li>' +
-            '</ul>'+
-            
+            '</ul>' +
             '</li>' +
             '<li><a href="#">INFRASTRUCTURE</a></li>' +
             '<li><a href="#">BLOG</a></li>' +
-            '</ul>'+
-            
+            '</ul>' +
             '</li>' +
-            '<li class="has-dropdown"><a href="#">RESOURCES</a>'+
-            
-            '<ul class="dropdown">'+
+            '<li class="has-dropdown"><a href="#">RESOURCES</a>' +
+            '<ul class="dropdown">' +
             '<li><a href="#">CASE STUDIES</a></li>' +
             '<li><a href="#">BROCHURES</a></li>' +
             '<li><a href="#">GALLERY</a></li>' +
-            '</ul>'+
-            
+            '</ul>' +
             '</li>' +
             '<li class=""><a href="#">CONTACT US</a></li>' +
             '</ul>' +
@@ -129,6 +123,7 @@ $(function() {
 
     /*headerpage load*/
     $("#dynamic_menu").load("headerpage.html");
+
 });
 /*accordion tweak*/
 $('.accordion > dd > a').click(function(event)
@@ -190,5 +185,22 @@ function load()
         }
     });
 }
+
+
+
+$.getScript("//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53086d7076bd2303", function() {
+
+    addthis.layers({
+        'theme': 'transparent',
+        'share': {
+            'position': 'right',
+            'numPreferredServices': 3
+        },
+        'follow': {
+            'services': []
+        }
+    });
+    // Here you can use anything you defined in the loaded script
+});
 
 

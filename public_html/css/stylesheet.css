@@ -168,7 +168,7 @@ input[type='search']{
 /*footer*/
 .footer{
     display: block;
-    background-color: #215c8e;//#32364d;
+    background-color: #0d2334;//#215c8e;//#32364d;
     padding-top: 2em;
     padding-bottom: 4em;
     margin-top: 6em;
@@ -211,6 +211,10 @@ input[type='search']{
 
 /*carousel*/
 .carousel{
+    list-style: none;
+}
+.carousel li{
+    list-style: none;
 }
 
 .orbit-progress, .orbit-timer{
@@ -279,7 +283,7 @@ input[type='search']{
     display: block;
     width: 100%;
     padding: .8em 0 .6em 0;
-    background-color: #32364d;
+    background-color: #5b5c5d ;//#32364d;
 }
 
 .title label{
@@ -323,11 +327,11 @@ input[type='search']{
 }
 
 .accordion-active{
-    background-color: #32364d !important;
+    background-color: #255c92 !important;
     color: white !important;
     margin-bottom: 0 !important;
     border-bottom: 0 !important;
-    border: 1px solid #293660 !important;
+    border: 1px solid #255c92 !important;
 
     background-image: url(../images/up.png) !important;
 }
@@ -436,3 +440,11 @@ nav{
     margin-bottom: 1em;
 }
 
+
+button{
+    background-color: #255c92;
+}
+
+#at4-share{
+    top: 70%;
+}
