@@ -415,10 +415,14 @@ nav{
 }
 
 #client_testimonials .orbit-prev, #client_testimonials .orbit-next{
-    top: 15em;
+    top: 10em;
 }
 #employee_stories .orbit-prev, #employee_stories .orbit-next{
-    top: 15em;
+    top: 10em;
+}
+
+#employee_stories > div > ul >li > div img{
+    width: 40%;
 }
 
 /*buton tweak*/

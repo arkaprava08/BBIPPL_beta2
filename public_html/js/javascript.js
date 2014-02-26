@@ -203,15 +203,3 @@ $.getScript("//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53086d7076bd2303
     // Here you can use anything you defined in the loaded script
 });
 
-//var elem = document.getElementById('carousel');
-//for(var i=0; i<elem.children.length; i++){
-//    if(i===0)
-//        elem.children[i].innerHTML = '<img src="images/hero/EmbedEng.jpg" alt="slide 1" />';
-//    else if(i===1)
-//        elem.children[i].innerHTML = '<img src="images/hero/ITservices.jpg" alt="slide 2" />';
-//    else if(i===2)
-//        elem.children[i].innerHTML = '<img src="images/hero/mechengine.jpg" alt="slide 3" />';
-//    else
-//        elem.children[i].innerHTML = '<img src="images/hero/renewable.jpg" alt="slide 4" />';
-//}
-
