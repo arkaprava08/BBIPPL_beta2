@@ -286,11 +286,14 @@ input[type='search']{
     display: block;
     width: 100%;
     padding: .8em 0 .6em 0;
-    background-color: #5b5c5d ;//#32364d;
+    background-color: #0d2334;//#32364d;
 }
 
 .title label{
     color: white;
+    font-size: small;
+    font-weight: lighter;
+    cursor: default;
 }
 
 /*accordion*/
@@ -358,6 +361,7 @@ input[type='search']{
 /*tweaking new megamenu in mobile*/
 .dropdown .title{
     padding: 0;
+    background-color: #245273;
 }
 .dropdown .title h5{
     font-size: medium;
@@ -367,17 +371,17 @@ input[type='search']{
 }
 
 .title-area, .toggle-topbar{
-    background-color: #215c8e !important;
+    background-color: #0d2334 !important;
 }
 
 nav{
-    background-color: #5085b2 !important;
+    background-color: #245273 !important;
 }
 .top-bar-section ul li > a{
-    background-color: #5085b2 !important;
+    background-color: #2b6088 !important;
 } 
 .top-bar-section ul li:hover > a{
-    background-color: #6796bc !important;
+    background-color: #2e6792 !important;
 }
 .top-bar.expanded .toggle-topbar a span ,.top-bar .toggle-topbar.menu-icon a span {
     -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white !important;

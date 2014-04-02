@@ -63,17 +63,24 @@ $(function() {
             '</li>' +
             '<li class="has-dropdown"><a href="#">SOLUTIONS</a>' +
             '<ul class="dropdown left">' +
+            ' <li class="has-dropdown"><a href="#">Software/IT Solutions</a>' +
+            '<ul class="dropdown left">' +
+            '<li><a href="solution_accelerators.html">>Solutions Accelerator</a></li>' +
+            '<li><a href="healthcare_solutions.html">>Healthcare</a></li>' +
+            '<li><a href="herald_logic.html">>Channel Management (Retail)</a></li>' +
+            '<li><a href="soa_facility_management.html">>SOA Facility Management</a></li>' +
+            '<li><a href="soa_cms.html">>SOA CMS</a></li>' +
+            ' </ul>' +
+            '</li>' +
             ' <li class="has-dropdown"><a href="#">Internet Of Things</a>' +
             '<ul class="dropdown left">' +
             '<li><a href="machine_to_machine.html">>Machine To Machine(M2M)</a></li>' +
             '<li><a href="smart_utilities.html">>Smart Utilities</a></li>' +
             '<li><a href="transport_and_toll_solutions.html">>Transport & Toll</a></li>' +
-            '<li><a href="healthcare_solutions.html">>Healthcare (21st century)</a></li>' +
-            '<li><a href="solution_accelerators.html">>Solutions Accelerator</a></li>' +
+            '<li><a href="hand_held_terminal.html.html">>Hand Held Terminal</a></li>' +
             ' </ul>' +
             '</li>' +
             '<li><a href="mobile_solution.html">Mobile Solution</a></li>' +
-            '<li><a href="herald_logic.html">Herald Logic</a></li>' +
             '<li><a href="manufactured_products.html">Manufactured Products</a></li>' +
             '<li><a href="renewable_energy_solutions.html">Renewable Energy</a></li>' +
             '</ul>' +
@@ -84,26 +91,36 @@ $(function() {
             '<ul class="dropdown">' +
             '<li class="has-dropdown"><a href="#">ABOUT US</a>' +
             '<ul class="dropdown">' +
-            '<li><a href="#">>Vision</a></li>' +
-            '<li><a href="#">>Core Team</a></li>' +
-            '<li><a href="#">>Collborations</a></li>' +
-            '<li><a href="#">>Clientd</a></li>' +
-            '<li><a href="#">>Practices</a></li>' +
-            '<li><a href="#">>Corporate Social Responsibility</a></li>' +
+            '<li><a href="who_we_are.html">>Who We are</a></li>' +
+            '<li><a href="core_team.html">>Core Team</a></li>' +
+            '<li><a href="methodology.html">>Methodology</a></li>' +
+            '<li><a href="clients_page.html">>Clients</a></li>' +
+            '<li><a href="collaborations.html">>Collaborations</a></li>' +
+            '<li><a href="corporate_social_responsibility.html">>Corporate Social Responsibility</a></li>' +
             '</ul>' +
             '</li>' +
-            '<li><a href="#">INFRASTRUCTURE</a></li>' +
+            '<li class="has-dropdown"><a href="#">INFRASTRUCTURE</a>'+
+            '<ul class="dropdown">' +
+            '<li><a href="center_of_excellence.html">>Center Of Excellence</a></li>' +
+            '<li><a href="facilities.html">>Facilities</a></li>' +
+            '</ul>' +
+            '</li>' +
             '<li><a href="#">BLOG</a></li>' +
             '</ul>' +
             '</li>' +
             '<li class="has-dropdown"><a href="#">RESOURCES</a>' +
             '<ul class="dropdown">' +
-            '<li><a href="#">CASE STUDIES</a></li>' +
-            '<li><a href="#">BROCHURES</a></li>' +
-            '<li><a href="#">GALLERY</a></li>' +
+            '<li><a href="case_studies.html">CASE STUDIES</a></li>' +
+            '<li><a href="brochures.html">BROCHURES</a></li>' +
+            '<li><a href="gallery.html">GALLERY</a></li>' +
             '</ul>' +
             '</li>' +
-            '<li class=""><a href="#">CONTACT US</a></li>' +
+            '<li  class="has-dropdown"><a href="#">CONTACT US</a>'+
+            '<ul class="dropdown">' +
+            '<li><a href="careers.html">CAREERS</a></li>' +
+            '<li><a href="contact_us.html">CONTACT US</a></li>' +
+            '</ul>' +
+            '</li>' +
             '</ul>' +
             '</section>';
     $("#megamenu").before("<nav class='top-bar row show-for-small-only' id='megamenu_mob' data-topbar>" + str + "</nav>");
@@ -176,7 +193,7 @@ function load()
     $(document).foundation({
         orbit: {
             animation: 'slide', // Sets the type of animation used for transitioning between slides, can also be 'fade'
-            timer_speed: 5000, // Sets the amount of time in milliseconds before transitioning a slide
+            timer_speed: 7000, // Sets the amount of time in milliseconds before transitioning a slide
             pause_on_hover: true, // Pauses on the current slide while hovering
             resume_on_mouseout: true, // If pause on hover is set to true, this setting resumes playback after mousing out of slide
             slide_number: false,
