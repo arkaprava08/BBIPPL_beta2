@@ -33,7 +33,8 @@ $(function() {
             ' <li><a href="enterprise_integration.html">Enterprise Integration</a></li>' +
             ' <li class="has-dropdown"><a href="#">Contract Manufacturing</a>' +
             '<ul class="dropdown left">' +
-            '<li><a href="mechanical.html">>Mechanical Manufacturing</a></li>' +
+            '<li><a href="precision_manufacturing.html">>Precision Manufacturing (CNC)</a></li>' +
+            '<li><a href="brand_promotion_services.html">>Brand Promotion Services</a></li>' +
             '<li><a href="electronic.html">>Electronic Manufacturing</a></li>' +
             ' </ul>' +
             '</li>' +
